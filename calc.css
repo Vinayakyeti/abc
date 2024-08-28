@@ -1,0 +1,20 @@
+.parent{
+    height: 500px;
+    width: 306px;
+    border: 2px solid black;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.btn{
+    display: grid;
+    /* grid-template-columns: 3,1fr; */
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
